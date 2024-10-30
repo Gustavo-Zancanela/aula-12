@@ -1,0 +1,19 @@
+def mensagem(dados,num):
+    print("Seu",dados,"é",num)
+
+mensagem("Telefone","99999999")
+mensagem("RG","202010391")
+mensagem('CPF',"293802028")
+
+def nomes(nome_1,nome_2):
+    print("Olá",nome_1)
+    print("Olá",nome_2)
+nomes("Carlos","JJ")
+
+def endereco(rua,cidade,cep):
+    print("Seu endereço é rua", rua,"na cidade de", cidade,"- CEP:",cep)
+r = input("Rua: ")
+c = input("Cidade: ")
+cp = input("CEP: ")
+
+endereco(r,c,cp)
